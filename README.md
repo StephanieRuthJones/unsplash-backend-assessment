@@ -97,7 +97,7 @@ Create a `GET`route in the `photoRoutes.js` file that:
 Create a `GET`route in the `photoRoutes.js` file that:
 
 - [ ] Returns a single photo object from the Unsplash API based on a photo's `id`
-- [ ] If the `catch` block is triggered, returns a `500` status and a JSON object with a `message` key assigned to a string that reads, `"Server error. Please try again later."`
+- [ ] If the `catch` block is triggered, it returns the error `status` and a JSON object with a `message` key assigned to the error `statusText`. Use [Axios Response Schema documentation](https://axios-http.com/docs/res_schema) as needed.
 
 **Commit to Github**
 
