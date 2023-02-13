@@ -147,7 +147,6 @@ Create a `GET`route in the `photoRoutes.js` file that:
   - [ ] If the user's `email` is not unique, return a `400` status and a JSON object with a `message` key assigned to a string that reads, `"Email already exists."`
 - [ ] Create a `login` route where users can sign in
   - [ ] `login` route should compare the hashed password to the password in the user request and returns a `JWT token`
-- [ ] Create a `logout` route that invalidates the `JWT token`
 - [ ] Create the `JWT token` using `jsonwebtoken`
 - [ ] Create a middleware that checks for the `JWT token` and verifies it
 - [ ] Create a private `/me` route that returns the user's information based on the `JWT token`
